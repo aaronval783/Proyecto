@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+}
+
+.promo-banner-container {
+    display: flex;
+    max-width: 100%;
+    gap: 6px;
+}
+
+.novedades-promo {
+    color: #fff;
+    background-color: black;
+    height: 212px;
+    width: 470px;
+
+}
+
+.oferta-cyber {
+    position: relative;
+    text-decoration: none;
+    color: #ff2934;
+    background-color: #EAEEEF;
+    height: 212px;
+    width: 470px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.oferta-cyber p {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.oferta-cyber img {
+    height: 100%;
+    position: absolute;
+    right: 0px;
+}
+
+section {
+    margin-bottom: 70px;
+}
+
+/*----------------------------------*/
+.categorias-container {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+
+.categorias-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 275px;
+    margin: auto 0px;
+    align-items: center;
+}
+
+.categorias-card p {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.categorias-card img {
+    max-width: 275px;
+}
+
+/*--------------------------------*/
+.seccion-novedades{
+    margin: 0px auto;
+    max-width: 1200px;
+}
+.seccion-novedades .barra{
+    background-color: #74759B;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    justify-items: center;
+    
+}
+.seccion-novedades h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+}
+.cont-card{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0px auto;
+    gap: 100px;
+}
+.card {
+    color: aliceblue;
+    background-color: #74759B;
+    max-width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 10px 10px 58px -9px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 58px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 58px -9px rgba(0, 0, 0, 0.75);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.card h5 {
+    margin: 5px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.cont-precio {
+    font-size: 1.2em;
+}
+
+.cont-precio p {
+    margin: 5px 0px;
+}
+
+.rojo {
+    color: rgb(233, 35, 35);
+    font-weight: bold;
+}
+
+.tachar {
+    text-decoration: line-through;
+}
+
+.interes {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: rgb(233, 35, 35);
+    height: 29px;
+    text-transform: uppercase;
+    font-weight: 540;
+}
+
+.banner{
+    color: #333333;
+    background-color: #333333;
+   
+}
+.banner img{
+    width: 100%;
+    opacity: 20%;
+}
