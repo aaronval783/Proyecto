@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6.M</title>
+
+    <style>
+        /* Reset de márgenes y paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            border-bottom: 1px solid #ccc;
+            position: fixed;
+            width: 100%;
+            background-color: #fff;
+        }
+
+        .barra-cyber {
+            background-color: #000;
+            color: #fff;
+            font-size: 22px;
+            text-align: center;
+            padding: 10px 0;
+            font-weight: bold;
+        }
+
+        .campo-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 15px 30px;
+        }   
+
+        .campo-header img {
+            height: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 60px;
+            justify-content: center;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 23px;
+        }
+        .campo-iconos {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+        .campo-iconos img {
+            height: 35px;
+        }
+
+        form input[type="search"] {
+            padding: 5px 10px;
+            border: 3px solid #000000;  
+            border-radius: 20px;
+            width: 240px;
+            height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="barra-cyber">
+            <p>CYBER MONDAY 🤖 HASTA 50% OFF</p>
+        </div>
+        <div class="campo-header">
+            <img src="./assets/logo.png" alt="logo 6.M">
+
+            <nav>
+                <ul>
+                    <li><a href="">CYBER MONDAY</a></li>
+                    <li><a href="">DESTACADO</a></li>
+                    <li><a href="">INDUMENTARIA</a></li>
+                    <li><a href="">COMUNIDAD</a></li>
+                </ul>
+            </nav>
+            <div class="campo-iconos">
+            <form action="/buscar" method="get" role="search">
+                <label for="campo-buscar" class="campo-buscar"></label>
+                <input type="search" id="campo-buscar" name="campo-buscar" placeholder="Buscar">
+            </form>
+            <a href=""><img src="./assets/usuarioicon.png" alt="icono de usuario"></a>
+            <a href=""><img src="./assets/carritoicon.png" alt="icono de carrito"></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+
+        </section>
+        <section>
+
+        </section>
+        <section>
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
