@@ -11,8 +11,11 @@ header {
     display: flex;
     flex-direction: column;
     max-height: 128px;
-    width: 100%;
+    
     opacity: 95%;
+    width: 100%;
+    left: 0;
+    right: 0;
 
 }
 
@@ -73,17 +76,26 @@ nav ul {
 
 /* Main */
 main {
+     padding-top: 130px;
     background-color: #ffffffc5;
     margin: auto;
-    max-width: 1920px;
+    max-width: 1904px;
 }
 
 section {
     margin-bottom: 40px;
 }
 
+.cyber-banner {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    max-width: 1093px;
+    width: 100%;
+}
 .cyber-banner img {
-    max-width: 1905px;
+    width: 100%;
+    max-width: 1904px;
     height: auto;
 }
 
@@ -125,23 +137,24 @@ section {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    border: #ccc 1px solid;
 
 }
 
 .prom-card img {
     width: 212px;
-    height: 209px;
-
+    height: 204px;
 }
 
 /*---------------------------------*/
 
 .seccion-categorias {
-    display: flex;
+     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin: 0px auto;
+    align-items: center;
+    margin: 50px auto;
     max-width: 1200px;
+    gap: 30px;
 }
 
 .seccion-categorias h2 {
@@ -153,19 +166,34 @@ section {
 }
 
 .categ-container {
-    display: flex;
-    justify-content: space-around;
-
+   display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 .categ-card {
-    text-align: center;
-    border: #333 1px solid;
-    padding: 0px 10px;
+     text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    width: 310px;
+    background: white;
 }
 
 .categ-card img {
-    max-width: 275px;
+  max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.4s ease;
+
+}
+.categ-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 /*----- SECCION NOVEDADES -------*/
@@ -265,7 +293,7 @@ button {
 }
 
 .banner img {
-    max-width: 1920px;
+    max-width: 1904px;
     width: 100%;
     opacity: 30%;
 }
@@ -274,7 +302,7 @@ button {
 
 footer {
     margin: auto;
-    max-width: 1920px;
+    max-width: 100%;
     margin-top: 100px;
     max-width: 1920px;
     width: 100%;

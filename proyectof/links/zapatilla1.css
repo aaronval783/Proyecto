@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+/* ================================
+   HEADER — FIJO Y NORMAL
+================================ */
+
+header {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    opacity: 95%;
+    left: 0;
+    top: 0;
+    z-index: 9999;     /* <<< LO QUE FALTABA */
+}
+
+.top-banner {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    border-bottom: #a4a4a4 2px solid;
+    box-shadow: 10px 10px 26px 6px rgba(164, 164, 164, 0.75);
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+nav img {
+    width: 70px;
+    height: auto;
+    margin: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type=search] {
+    height: 36px;
+    border-radius: 15px;
+    border: #ccc 2px solid;
+    width: 250px;
+}
+
+.search-bar img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+
+/* ================================
+   MAIN — SEPARADO DEL HEADER
+================================ */
+
+main {
+    padding-top: 180px;   /* distancia necesaria para liberar el header */
+    max-width: 1600px;
+    margin: auto;
+    background-color: #ffffffc5;
+}
+
+/* ====================================
+   MAIN — PRODUCTO
+==================================== */
+
+.producto-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 40px;
+}
+
+/* -------- IMAGEN -------- */
+
+.producto-imagen img {
+    width: 500px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+/* -------- INFO DEL PRODUCTO -------- */
+
+.producto-info {
+    max-width: 400px;
+}
+
+.producto-info h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.precio {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.producto-info p {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.producto-info h3 {
+    font-size: 18px;
+    margin: 20px 0 12px 0;
+}
+
+/* -------- TALLES -------- */
+
+.talles {
+    display: flex;
+    gap: 10px;
+}
+
+.talles button {
+    padding: 12px 25px;
+    border: 2px solid #000;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* -------- BOTON COMPRAR -------- */
+
+.btn-comprar {
+    margin-top: 30px;
+    padding: 18px 40px;
+    font-size: 20px;
+    background-color: #d00000;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*----- FOOTER -----*/
+
+footer {
+    margin: auto;
+    max-width: 100%;
+    margin-top: 100px;
+    max-width: 1920px;
+    width: 100%;
+    background-color: #001E62;
+    color: white;
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 270px;
+    gap: 10px;
+}
+
+footer section h3,
+p,
+h4 {
+    font-size: 14px;
+}
+
+footer h3 {
+    margin: 14px 0px;
+}
+
+footer p {
+    gap: 2px;
+}
+
+.iconos {
+    width: 40px;
+}
+
+footer button {
+    background-color: white;
+    font-weight: bold;
+    color: #001E62;
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    word-spacing: -2px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    word-spacing: -2px;
+}
+footer ul {
+    list-style: none;
+}
+footer ul button{
+    margin-top: 20px;
+}
+li {
+    margin-bottom: 7px;
+}
